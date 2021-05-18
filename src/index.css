@@ -31,9 +31,9 @@ label {
   color: white;
   background-color: crimson;
   border: solid 1px crimson;
-  /* box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75); */
+  -moz-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
   letter-spacing: 2px;
   font-weight: bolder;
   transition: 300ms ease-in-out;
@@ -44,7 +44,6 @@ label:hover {
   color: crimson;
 }
 .progress {
-  margin: 10px auto;
   height: 5px;
   background-color: green;
 }

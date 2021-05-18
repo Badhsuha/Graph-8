@@ -21,10 +21,10 @@ function View({ id }) {
         <input
           type="file"
           onChange={changehandler}
-          id="file"
+          id={id}
           style={{ display: "none" }}
         />
-        <label for="file">+</label>
+        <label htmlFor={id}>click</label>
 
         {file && <div> {file.name} </div>}
         {err && <div> {err} </div>}

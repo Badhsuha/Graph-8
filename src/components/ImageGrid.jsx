@@ -7,7 +7,7 @@ function ImageGrid({ id }) {
     <div className="grid image">
       {docs &&
         docs.map((doc) => (
-          <div className="img-wrapper">
+          <div className="img-wrapper" key={doc.id}>
             <img src={doc.url} id={doc.id} alt="iamge" />
           </div>
         ))}
